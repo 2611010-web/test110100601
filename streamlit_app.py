@@ -1,8 +1,8 @@
 import streamlit as st
 st.set_page_config(page_title="목윤서의 자기소개",layout="centered")
 st.title("안녕하세요 반갑습니다")
-st.subheader("웹툰작가 지망생 지망생 입니다.")
-st.write("수학숙제와 미술숙제가 밀렸습니다.")
+st.subheader("야르 입니다.")
+st.write("숙제가 밀렸습니다.")
 col1,col2=st.columns([1,2])
 with col1:
     st.image("https://via.placeholder.com/150",caption="목윤서",width=150)
@@ -22,7 +22,7 @@ with st.expander("1 늦게까지 밀린 숙제 하다가 학교에서 졸기"):
     st.write("기간 202605 202606")
     st.write("지금도 졸려요")
     st.write("토요일은 밤 새고 학원에 갔어요")
-with st.expander("2 국영수사과 관두고 그림만 그리고 싶어하기"):
+with st.expander("2 국영수사과 관두고 싶어하기"):
     st.write("기간 매일")
     st.write("졸려요")
     st.write("아 너무 졸린데")
